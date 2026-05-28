@@ -1,0 +1,51 @@
+# Gradle
+.gradle/
+build/
+**/build/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/caches
+.idea/modules.xml
+.idea/navEditor.xml
+*.eml
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Local config – jangan di-commit
+local.properties
+keystore.properties
+*.jks
+*.keystore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# APK / AAB output
+*.apk
+*.aab
+*.ap_
+
+# Proguard
+proguard/
+**/proguard-project.txt
+
+# Kotlin
+*.class
+*.kotlin_module
+
+# Test results
+**/test-results/
+**/TEST-*.xml
